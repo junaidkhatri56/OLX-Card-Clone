@@ -50,7 +50,10 @@ function App() {
         location="12th Avenue, Islamabad" 
         date={currentDate}
       />
-      </div> : <p className='msg'>"Click! (Show All Items...) to view all cards on screen"</p> }
+      </div> : <div>
+               <h1 className='no-item'>No Item Found...</h1>
+               <p className='msg'>"Click! (Show All Items...) to view all cards on screen"</p>
+               </div> }
     </>
   )
 }
