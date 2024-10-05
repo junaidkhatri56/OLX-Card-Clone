@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Card from './components/card'
+import Card from './components/Card.jsx'
 import OlxLogo from './assets/olx-logo.png';
 import PhoneImage1 from './assets/iphone-11.png';
 import PhoneImage2 from './assets/one-plus.png';
